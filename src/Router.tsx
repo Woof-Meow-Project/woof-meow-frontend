@@ -5,6 +5,8 @@ import MainPage from './pages/MainPage';
 import ListPage from './pages/ListPage';
 import LoginPage from './pages/LoginPage';
 import SignupBasePage from './pages/signup/SignupBasePage';
+import SignupUserPage from './pages/signup/SignupUserPage';
+import SignupPetsPage from './pages/signup/SignupPetsPage';
 
 const router = createBrowserRouter([
   {

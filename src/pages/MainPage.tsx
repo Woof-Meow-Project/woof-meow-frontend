@@ -1,11 +1,7 @@
-import PetCard from '../components/PetCard';
-
 function MainPage() {
-  return (
-    <div>
-      <PetCard />
-    </div>
-  );
+  console.log(import.meta.env);
+
+  return <div>메인페이지{import.meta.env.VITE_APP_ENV}</div>;
 }
 
 export default MainPage;
