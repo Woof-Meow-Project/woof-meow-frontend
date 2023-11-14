@@ -1,5 +1,11 @@
+import PetCard from '../components/PetCard';
+
 function MainPage() {
-  return <div>메인 페이지</div>;
+  return (
+    <div>
+      <PetCard />
+    </div>
+  );
 }
 
 export default MainPage;
